@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Smart Operations App</title>
+    <title>Unity WebGL Player | WebGL</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -19,20 +19,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Smart Operations App</div>
+        <div id="unity-build-title">WebGL</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/adediegl.github.io.loader.js";
       var config = {
-        dataUrl: buildUrl + "/adediegl.github.io.data",
-        frameworkUrl: buildUrl + "/adediegl.github.io.framework.js",
-        codeUrl: buildUrl + "/adediegl.github.io.wasm",
+        dataUrl: buildUrl + "/adediegl.github.io.data.gz",
+        frameworkUrl: buildUrl + "/adediegl.github.io.framework.js.gz",
+        codeUrl: buildUrl + "/adediegl.github.io.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Ntt Data",
-        productName: "Smart Operations App",
-        productVersion: "0.4",
+        companyName: "DefaultCompany",
+        productName: "WebGL",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
